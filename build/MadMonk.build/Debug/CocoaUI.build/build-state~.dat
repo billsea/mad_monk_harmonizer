@@ -1,0 +1,830 @@
+TCocoaUI
+v7
+r0
+t327090871.151805
+cCheck dependencies
+cProcessInfoPlistFile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Info.plist MadMonk_CocoaViewFactory.plist
+cCompileXIB /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib
+cCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory normal i386
+cTouch /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase/AUBase.h
+c000000004A1249500000000000008203
+t1242712400
+s33283
+i<TargetConditionals.h>
+i<pthread.h>
+i<windows.h>
+i<vector>
+i"ComponentBase.h"
+i"AUScopeElement.h"
+i"AUInputElement.h"
+i"AUOutputElement.h"
+i"AUBuffer.h"
+i"CAMath.h"
+i"CAThreadSafeList.h"
+i"CAVectorUnit.h"
+i"CATrace.h"
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase/AUInputElement.h
+c000000004A12495000000000000011E5
+t1242712400
+s4581
+i"AUScopeElement.h"
+i"AUBuffer.h"
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase/AUOutputElement.h
+c000000004A1249500000000000000B84
+t1242712400
+s2948
+i"AUScopeElement.h"
+i"AUBuffer.h"
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase/AUScopeElement.h
+c000000004A12495000000000000049D5
+t1242712400
+s18901
+i<map>
+i<vector>
+i<AudioUnit/AudioUnit.h>
+i<AudioUnit.h>
+i"ComponentBase.h"
+i"AUBuffer.h"
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase/ComponentBase.h
+c000000004A1249500000000000001FB7
+t1242712400
+s8119
+i<new>
+i"CADebugMacros.h"
+i<CoreAudio/CoreAudioTypes.h>
+i<AudioUnit/AudioUnit.h>
+i<CoreServices/../Frameworks/CarbonCore.framework/Headers/Components.h>
+i<pthread.h>
+i"CoreAudioTypes.h"
+i"Components.h"
+i"AudioUnit.h"
+i"CAGuard.h"
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/OtherBases/AUEffectBase.h
+c000000004A1249500000000000002520
+t1242712400
+s9504
+i"AUBase.h"
+i"AUSilentTimeout.h"
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/Utility/AUBuffer.h
+c000000004A12495000000000000021E4
+t1242712400
+s8676
+i<TargetConditionals.h>
+i<AudioUnit/AudioUnit.h>
+i<AudioUnit.h>
+i<string.h>
+i"CAStreamBasicDescription.h"
+i"CAAutoDisposer.h"
+i"CADebugMacros.h"
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/Utility/AUDebugDispatcher.h
+c000000004A1249500000000000001407
+t1242712400
+s5127
+i"CAHostTimeBase.h"
+i"CAMutex.h"
+i"AUBase.h"
+
+N/Developer/Extras/CoreAudio/AudioUnits/AUPublic/Utility/AUSilentTimeout.h
+c000000004A1249500000000000000C53
+t1242712400
+s3155
+
+N/Developer/Extras/CoreAudio/PublicUtility/CADebugMacros.h
+c000000004A1249500000000000004FAE
+t1242712400
+s20398
+i<CoreAudio/CoreAudioTypes.h>
+i"CoreAudioTypes.h"
+i"CADebugPrintf.h"
+i<pthread.h>
+i"CAHostTimeBase.h"
+i"CAHostTimeBase.h"
+i"CADebugger.h"
+
+N/Developer/Extras/CoreAudio/PublicUtility/CADebugPrintf.h
+c000000004A124950000000000000111C
+t1242712400
+s4380
+i<CoreAudio/CoreAudioTypes.h>
+i"CoreAudioTypes.h"
+i<sys/syslog.h>
+i<stdio.h>
+i<stdio.h>
+
+N/Developer/Extras/CoreAudio/PublicUtility/CADebugger.h
+c000000004A1249500000000000000A9C
+t1242712400
+s2716
+
+N/Developer/Extras/CoreAudio/PublicUtility/CAHostTimeBase.h
+c000000004A1249500000000000001C6C
+t1242712400
+s7276
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreAudioTypes.h>
+i<mach/mach_time.h>
+i<windows.h>
+i"CADebugMacros.h"
+
+N/Developer/Extras/CoreAudio/PublicUtility/CAMutex.h
+c000000004A124950000000000000128C
+t1242712400
+s4748
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreAudioTypes.h>
+i<pthread.h>
+i<windows.h>
+
+N/Developer/Extras/CoreAudio/PublicUtility/CAStreamBasicDescription.h
+c000000004A1249500000000000002E6C
+t1242712400
+s11884
+i<CoreAudio/CoreAudioTypes.h>
+i<CoreFoundation/CoreFoundation.h>
+i"CoreAudioTypes.h"
+i"CoreFoundation.h"
+i"CADebugMacros.h"
+i<string.h>
+i<stdio.h>
+
+N/Developer/Extras/CoreAudio/PublicUtility/CAVectorUnit.h
+c000000004A1249500000000000000D83
+t1242712400
+s3459
+i<TargetConditionals.h>
+i"CAVectorUnitTypes.h"
+i<stdlib.h>
+i<stdio.h>
+i<CoreFoundation/CFBase.h>
+i"CFBase.h"
+
+N/Developer/Extras/CoreAudio/PublicUtility/CAVectorUnitTypes.h
+c000000004A1249500000000000000A3C
+t1242712400
+s2620
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.h
+c000000004A11A0E6000000000000022A
+t1242669286
+s554
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC400730000000000000A22
+t1287913587
+s2594
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AUCocoaUIView.h
+c000000004CC4006600000000000007E0
+t1287913574
+s2016
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c000000004CC40066000000000000041D
+t1287913574
+s1053
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004A73D820000000000000F342
+t1249105952
+s62274
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+c000000004AB994880000000000003A75
+t1253676168
+s14965
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004AB994890000000000000AF4
+t1253676169
+s2804
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers/Components.h
+c000000004A5EC276000000000000D5E1
+t1247724150
+s54753
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/TargetConditionals.h
+c000000004A11A9B300000000000031E9
+t1242671539
+s12777
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_time.h
+c000000004A73D6540000000000000746
+t1249105492
+s1862
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004A5C14A700000000000038F0
+t1247548583
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/syslog.h
+c000000004A73D65500000000000021EC
+t1249105493
+s8684
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D44A28400000000005198C0
+t1296343684
+s5347520
+
+N/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004D44A1A20000000000012150
+t1296343458
+s74064
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.h
+c000000004D460B2D000000000000125A
+t1296436013
+s4698
+i<Cocoa/Cocoa.h>
+i<AudioUnit/AudioUnit.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m
+c000000004D460B450000000000003231
+t1296436037
+s12849
+i"MadMonk_CocoaView.h"
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib
+c000000004D460B70000000000000EEAF
+t1296436080
+s61103
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.h
+c000000004CE484CD0000000000000EE9
+t1290044621
+s3817
+i<Cocoa/Cocoa.h>
+i<AudioUnit/AUCocoaUIView.h>
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m
+c000000004CE484CD0000000000000E75
+t1290044621
+s3701
+i"MadMonk_CocoaViewFactory.h"
+i"MadMonk_CocoaView.h"
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle
+t1296436085
+s102
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Info.plist
+t1296251926
+s522
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory
+t1296436039
+s58756
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Resources/MadMonk_CocoaView.nib
+t1296436084
+s23322
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o
+t1296436038
+s34024
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory
+t1296436038
+s25368
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.LinkFileList
+c000000004D4607A2000000000000010D
+t1296435106
+s269
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o
+t1296436014
+s15980
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o
+t1296436039
+s37196
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory
+t1296436039
+s25988
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.LinkFileList
+c000000004D4607A2000000000000010B
+t1296435106
+s267
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o
+t1296436015
+s16288
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk.cpp
+c000000004D5729080000000000004030
+t1297557768
+s16432
+i"MadMonk.h"
+i<AudioToolbox/AudioToolbox.h>
+i<Accelerate/Accelerate.h>
+i<semitoneGet.h>
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk.h
+c000000004D9916FD0000000000003D64
+t1301878525
+s15716
+i"AUEffectBase.h"
+i"MadMonkVersion.h"
+i<string>
+i"AUDebugDispatcher.h"
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonkVersion.h
+c000000004D433F670000000000000B86
+t1296252775
+s2950
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.h
+c000000004DCAE510000000000000195E
+t1305142544
+s6494
+i<Cocoa/Cocoa.h>
+i<AudioUnit/AudioUnit.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m
+c000000004DCECA500000000000005B19
+t1305397840
+s23321
+i"MadMonk_CocoaView.h"
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib
+c000000004DCECAEB000000000002EEAA
+t1305397995
+s192170
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.h
+c000000004CE484CD0000000000000EE9
+t1290044621
+s3817
+i<Cocoa/Cocoa.h>
+i<AudioUnit/AUCocoaUIView.h>
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m
+c000000004CE484CD0000000000000E75
+t1290044621
+s3701
+i"MadMonk_CocoaViewFactory.h"
+i"MadMonk_CocoaView.h"
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle
+t1305398071
+s102
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Info.plist
+t1305398068
+s920
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory
+t1305398071
+s36180
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Resources/MadMonk_CocoaView.nib
+t1305398069
+s46294
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o
+t1305398071
+s56020
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory
+t1302374676
+s36788
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.LinkFileList
+c000000004DCECB340000000000000109
+t1305398068
+s265
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o
+t1305398070
+s18488
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o
+t1302374677
+s65788
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory
+t1302374677
+s42896
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.LinkFileList
+c000000004D9FB1170000000000000107
+t1302311191
+s263
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o
+t1302373081
+s18988
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaView.o
+t1291227148
+s35472
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaViewFactory.LinkFileList
+c000000004CF6900B000000000000010D
+t1291227147
+s269
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaViewFactory.o
+t1291227148
+s19144
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/keyGet.h
+c000000004D4E42DC0000000000000175
+t1296974556
+s373
+i<Cocoa/Cocoa.h>
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/scaleType.h
+c000000004D55E7950000000000000173
+t1297475477
+s371
+i<iostream>
+i<string>
+
+N/Users/bill/Documents/AudioUnitsApps_New/MadMonk/semitoneGet.h
+c000000004D55F467000000000000032C
+t1297478759
+s812
+i<iostream>
+i<string>
+i<math.h>
+i"scaleType.h"
+
+NMadMonk_CocoaViewFactory.plist
+c000000004CE484CD000000000000020A
+t1290044621
+s522
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327090868#327090868#0(0"0(0#1#0"8617763968#0"0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318128838.483996
+e318128838.805535
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m318128838#318128838#0(0"0(0#0#70"/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m4300885448#1065"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/include" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/i386" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources" -c "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m" -o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o"0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327090869.289851
+e327090871.096359
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m327090869#327090871#0(0"0(0#0#68"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m8617584160#1033"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/i386 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s312919986.058974
+e312919988.159022
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m312919986#312919988#0(0"0(0#0#68"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m4300885448#1054"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/i386 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaView.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s318128813.077614
+e318128814.335665
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m318128813#318128814#0(0"0(0#0#77"/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m4300885448#1079"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/include" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/i386" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources" -c "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m" -o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o"0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327090869.288575
+e327090871.001191
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m327090869#327090871#0(0"0(0#0#75"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m8619848288#1047"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/i386 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s312919986.056919
+e312919987.976044
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m312919986#312919987#0(0"0(0#0#75"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m4300885448#1068"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/i386 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s318128838.806901
+e318128839.830616
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m318128838#318128839#0(0"0(0#0#70"/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m4300885448#1059"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/include" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/ppc" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources" -c "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.m" -o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o"0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s324067476.840100
+e324067477.943672
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m324067476#324067477#0(0"0(0#0#68"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m4300885448#1027"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/ppc -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m normal ppc objective-c++ com.apple.compilers.gcc.4_2
+s312919988.235415
+e312919989.898478
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m
+xnormal
+xppc
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m312919988#312919989#0(0"0(0#0#68"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m4300885448#1048"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/ppc -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaView.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s318128814.335804
+e318128815.512661
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m318128814#318128815#0(0"0(0#0#77"/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m4300885448#1073"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/include" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/ppc" "-I/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources" -c "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaViewFactory.m" -o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o"0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s324065880.042383
+e324065881.167973
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m324065880#324065881#0(0"0(0#0#75"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m4300885448#1041"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/ppc -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m normal ppc objective-c++ com.apple.compilers.gcc.4_2
+s312919987.976285
+e312919989.672625
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m
+xnormal
+xppc
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m312919987#312919989#0(0"0(0#0#75"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m4300885448#1062"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/ppc -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaView.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312919947.439903
+e312919948.852698
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaView.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m312919947#312919948#0(0"0(0#0#68"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m4300885448#1039"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/x86_64 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaView.o0#
+
+CCompileC build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaViewFactory.o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312919947.438258
+e312919948.852359
+r1
+xCompileC
+xbuild/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaViewFactory.o
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m312919947#312919948#0(0"0(0#0#75"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m4300885448#1053"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/MadMonk_CocoaViewFactory.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/include -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources/x86_64 -I/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/DerivedSources -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.m -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaViewFactory.o0#
+
+CCompileXIB "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib"
+s318128884.621987
+e318128885.023301
+r1
+xCompileXIB
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib:100091: note: This view is clipping its content.
+o/* com.apple.ibtool.document.warnings */
+o/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib:-2: warning: The 'uiFreshlyLoadedView' outlet of 'File's Owner' is connected to 'MadMonk_CocoaView' but 'uiFreshlyLoadedView' is no longer defined on MadMonk_CocoaViewFactory.
+lSLF07#2@32"CompileXIB MadMonk_CocoaView.xib318128884#318128885#0(452"/* com.apple.ibtool.document.notices *//Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib:100091: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib:-2: warning: The 'uiFreshlyLoadedView' outlet of 'File's Owner' is connected to 'MadMonk_CocoaView' but 'uiFreshlyLoadedView' is no longer defined on MadMonk_CocoaViewFactory.2(13@34"This view is clipping its content.318128884#18446744073709551615#0#0(6@72"/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib318128880#100091#0#100091#0#0"0(22@162"The 'uiFreshlyLoadedView' outlet of 'File's Owner' is connected to 'MadMonk_CocoaView' but 'uiFreshlyLoadedView' is no longer defined on MadMonk_CocoaViewFactory.318128884#18446744073709551615#0#0(6@72"/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib318128880#18446744073709551614#0#18446744073709551614#0#0"0(0#0#72"/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib4300885448#379"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Resources/MadMonk_CocoaView.nib" "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/MadMonk_CocoaView.xib"0#
+
+CCompileXIB /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib
+s327090868.800672
+e327090869.288392
+r1
+xCompileXIB
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib:100091: note: This view is clipping its content.
+o/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib:100121: note: This view is clipping its content.
+o/* com.apple.ibtool.document.warnings */
+o/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib:22: warning: The 'uiSourceLevel' outlet of 'MadMonk_CocoaView' is connected to 'Vertical Tick Right Slider' but 'NSSlider' is not a kind of 'MadMonk_GestureSlider' as specified by the outlet type.
+o/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib:-2: warning: The 'uiFreshlyLoadedView' outlet of 'File's Owner' is connected to 'MadMonk_CocoaView' but 'uiFreshlyLoadedView' is no longer defined on MadMonk_CocoaViewFactory.
+lSLF07#2@32"CompileXIB MadMonk_CocoaView.xib327090868#327090869#0(836"/* com.apple.ibtool.document.notices *//Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib:100091: note: This view is clipping its content./Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib:100121: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib:22: warning: The 'uiSourceLevel' outlet of 'MadMonk_CocoaView' is connected to 'Vertical Tick Right Slider' but 'NSSlider' is not a kind of 'MadMonk_GestureSlider' as specified by the outlet type./Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib:-2: warning: The 'uiFreshlyLoadedView' outlet of 'File's Owner' is connected to 'MadMonk_CocoaView' but 'uiFreshlyLoadedView' is no longer defined on MadMonk_CocoaViewFactory.4(13@34"This view is clipping its content.327090869#18446744073709551615#0#0(6@70"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib327090795#100091#0#100091#0#0"0(13@34"This view is clipping its content.327090869#18446744073709551615#0#0(6@70"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib327090795#100121#0#100121#0#0"0(22@183"The 'uiSourceLevel' outlet of 'MadMonk_CocoaView' is connected to 'Vertical Tick Right Slider' but 'NSSlider' is not a kind of 'MadMonk_GestureSlider' as specified by the outlet type.327090869#18446744073709551615#0#0(6@70"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib327090795#22#0#22#0#0"0(22@162"The 'uiFreshlyLoadedView' outlet of 'File's Owner' is connected to 'MadMonk_CocoaView' but 'uiFreshlyLoadedView' is no longer defined on MadMonk_CocoaViewFactory.327090869#18446744073709551615#0#0(6@70"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib327090795#18446744073709551614#0#18446744073709551614#0#0"0(0#0#70"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib8618992928#404"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Resources/MadMonk_CocoaView.nib /Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaView.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCreateUniversalBinary "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory" normal "i386 ppc"
+s318128839.871518
+e318128839.875886
+r1
+xCreateUniversalBinary
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory
+xnormal
+xi386 ppc
+lSLF07#2@123"CreateUniversalBinary build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory normal "i386 ppc"318128839#318128839#0(0"0(0#0#59"/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/i386 ppc4300885448#506"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    /usr/bin/lipo -create "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory" "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory" -output "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory"0#
+
+CCreateUniversalBinary /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory normal "i386 ppc"
+s324067477.985374
+e324067477.989838
+r1
+xCreateUniversalBinary
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory
+xnormal
+xi386 ppc
+lSLF07#2@123"CreateUniversalBinary build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory normal "i386 ppc"324067477#324067477#0(0"0(0#0#57"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/i386 ppc4300885448#490"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    /usr/bin/lipo -create /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory -output /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory0#
+
+CLd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory" normal i386
+s318128838.805638
+e318128838.864143
+r1
+xLd
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory
+xnormal
+xi386
+lSLF07#2@140"Link /Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory318128838#318128838#0(0"0(0#0#0"4300885448#716"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug" "-F/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug" -filelist "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework AudioUnit -framework AudioToolbox -o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory"0#
+
+CLd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory" normal ppc
+s318128839.830749
+e318128839.871371
+r1
+xLd
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory
+xnormal
+xppc
+lSLF07#2@139"Link /Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory318128839#318128839#0(0"0(0#0#0"4300885448#713"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug" "-F/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug" -filelist "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework AudioUnit -framework AudioToolbox -o "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory"0#
+
+CLd /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory normal i386
+s327090871.096499
+e327090871.147976
+r1
+xLd
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory
+xnormal
+xi386
+lSLF07#2@137"Link /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory327090871#327090871#0(0"0(0#0#0"8605586688#695"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -filelist /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework AudioUnit -framework AudioToolbox -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory0#
+
+CLd /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory normal x86_64
+s312919948.852791
+e312919949.052115
+r1
+xLd
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory
+xnormal
+xx86_64
+lSLF07#2@137"Link /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory312919948#312919949#0(0"0(0#0#0"4300885448#699"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -filelist /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/x86_64/MadMonk_CocoaViewFactory.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework AudioUnit -framework AudioToolbox -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/MacOS/MadMonk_CocoaViewFactory0#
+
+CLd /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory normal i386
+s324067476.838683
+e324067476.905812
+r1
+xLd
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory
+xnormal
+xi386
+lSLF07#2@138"Link /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory324067476#324067476#0(0"0(0#0#0"4300885448#696"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -filelist /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework AudioUnit -framework AudioToolbox -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/i386/MadMonk_CocoaViewFactory0#
+
+CLd /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory normal ppc
+s324067477.943795
+e324067477.985241
+r1
+xLd
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory
+xnormal
+xppc
+lSLF07#2@137"Link /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory324067477#324067477#0(0"0(0#0#0"4300885448#693"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -F/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug -filelist /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework AudioUnit -framework AudioToolbox -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/MadMonk.build/Debug/CocoaUI.build/Objects-normal/ppc/MadMonk_CocoaViewFactory0#
+
+CProcessInfoPlistFile "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Info.plist" MadMonk_CocoaViewFactory.plist
+r0
+
+CProcessInfoPlistFile /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Info.plist MadMonk_CocoaViewFactory.plist
+s327090868.796847
+e327090868.800563
+r1
+xProcessInfoPlistFile
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Info.plist
+xMadMonk_CocoaViewFactory.plist
+lSLF07#2@38"Process MadMonk_CocoaViewFactory.plist327090868#327090868#0(0"0(0#0#79"/Users/bill/Documents/AudioUnitsApps_New/MadMonk/MadMonk_CocoaViewFactory.plist8616327232#270"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    builtin-infoPlistUtility MadMonk_CocoaViewFactory.plist -expandbuildsettings -platform macosx -o /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle/Contents/Info.plist0#
+
+CTouch "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle"
+s318128885.024213
+e318128885.027859
+r1
+xTouch
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle
+lSLF07#2@100"Touch /Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle318128885#318128885#0(0"0(0#0#0"4300885448#179"    cd "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2"    /usr/bin/touch -c "/Users/bill/Documents/AudioUnitsApps_New/MadMonk 2/build/Debug/MadMonk_CocoaViewFactory.bundle"0#
+
+CTouch /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle
+s327090871.148098
+e327090871.151749
+r1
+xTouch
+x/Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle
+lSLF07#2@98"Touch /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle327090871#327090871#0(0"0(0#0#0"8625264320#171"    cd /Users/bill/Documents/AudioUnitsApps_New/MadMonk    /usr/bin/touch -c /Users/bill/Documents/AudioUnitsApps_New/MadMonk/build/Debug/MadMonk_CocoaViewFactory.bundle0#
+
