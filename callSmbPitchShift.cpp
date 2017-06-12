@@ -1,11 +1,12 @@
 /* *********************************************************************************
 
-	EXAMPLE main() for smbPitchShift using MiniAiff to handle sound file i/o
-	(c) 2003-2009 S. M. Bernsee, http://www.dspdimension.com
-	
-	IMPORTANT: requires miniAIFF to be included in the project
+        EXAMPLE main() for smbPitchShift using MiniAiff to handle sound file i/o
+        (c) 2003-2009 S. M. Bernsee, http://www.dspdimension.com
 
-********************************************************************************* */
+        IMPORTANT: requires miniAIFF to be included in the project
+
+*********************************************************************************
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

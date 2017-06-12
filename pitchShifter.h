@@ -13,9 +13,6 @@
 #include "AUEffectBase.h"
 #include "math.h"
 #include <AudioToolbox/AudioUnitUtilities.h>
-
-
-
 	
 class pitchShifter
 {

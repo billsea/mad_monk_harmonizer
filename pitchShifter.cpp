@@ -25,10 +25,7 @@ int CROSSFADETIMEINMS = 12;//12;
 // interval is a halftone.
 double twelvethRootOfTwo = pow(2, 1.0 / 12.0);
 
-pitchShifter::pitchShifter()
-{
-
-}
+pitchShifter::pitchShifter() {}
 
 void pitchShifter::pitchShifterInit(int nSampleRate,int bufFrames)
 	{

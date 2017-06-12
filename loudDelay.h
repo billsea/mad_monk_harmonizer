@@ -6,8 +6,6 @@
  *
  */
 
-
-
 #ifndef _LOUDDELAY_H_
 #define _LOUDDELAY_H_
 
