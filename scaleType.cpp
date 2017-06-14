@@ -9,8 +9,4 @@
 
 #include "scaleType.h"
 
-
-scaleType::scaleType()
-{
-
-}
+scaleType::scaleType(){}

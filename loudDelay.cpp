@@ -7,14 +7,9 @@
  */
 
 #include "loudDelay.h"
-
-
-
 #include "loudDelay.h"
 #include "AUEffectBase.h"
 #include "math.h"
-
-
 
 loudDelay::loudDelay()
 {
@@ -24,18 +19,11 @@ loudDelay::loudDelay()
 	delayBuffer_L.AllocateClear(pmMaxDelayFrames);
 	delayBuffer_R.AllocateClear(pmMaxDelayFrames);
 	pmWriteIndex = pmMaxDelayFrames - 1;
-	
-	
-	printf("delay init...");
-	
 }
 
 
 void loudDelay::processInput(Float32 &srcInL, Float32 &srcInR)
 {
-	//printf("process Delay...");
-	
-	
 	//single parameter values
 	float	level;
 	int		readIndex;
@@ -74,10 +62,8 @@ void loudDelay::processInput(Float32 &srcInL, Float32 &srcInR)
 	outputL += delayReadL * level * wet ;
 	outputR += delayReadR * level * wet ;
 	
-	srcInL = outputL; 
-	srcInR = outputR;
-	
-	
+	srcInL = outputL;
+    srcInR = outputR;
 }
 
 void loudDelay::setWriteIndex( int wIndex )

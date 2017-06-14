@@ -50,10 +50,6 @@
 
 void smbFftDetect(float *fftBuffer, long fftFrameSize, long sign);
 double smbAtanDetect(double x, double y);
-
-
-// -----------------------------------------------------------------------------------------------------------------
-
 float MagnitudeSquared(float x, float y) {
 	return ((x*x) + (y*y));
 }
@@ -162,18 +158,7 @@ void smbPitchDetect(long numSampsToProcess, long fftFrameSize, long osamp, float
 				/* store magnitude and true frequency in analysis arrays */
 				gAnaMagn[k] = magn;
 				gAnaFreq[k] = tmp;
-				//printf("tmp: %f\n",tmp);
-				
-				
 			}
-			
-			//show true frequency values
-			// for(int s=0;s<fftFrameSize2;s++)
-			// {
-			//	 printf("gAnaFreq[s]: %f\n",gAnaFreq[s]);
-			// }
-			
-			
 		}
 	}
 	
@@ -271,11 +256,4 @@ double smbAtanDetect(double x, double y)
 	
 	return atan2(x, y);
 }
-
-
-// -----------------------------------------------------------------------------------------------------------------
-// -----------------------------------------------------------------------------------------------------------------
-// -----------------------------------------------------------------------------------------------------------------
-
-
 

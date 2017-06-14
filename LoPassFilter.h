@@ -15,19 +15,13 @@
 
 using namespace std;
 
-class LoPassFilter
-{
-
-	
+class LoPassFilter {
 public:
-LoPassFilter();
-void CalculateLopassParams(double inFreq, double inResonance,int sampleRate);
+    LoPassFilter();
+    void CalculateLopassParams(double inFreq, double inResonance,int sampleRate);
 	void processInputLo(float *source, float *dest,int inFramesToProcess);
-void resetLo();
-
-	
+    void resetLo();
 private:
-	
 	//lowpass filter coefficients	
 	double	Lp_a1;
 	double	Lp_a2;
@@ -40,7 +34,5 @@ private:
 	double	mX2;
 	double	mY1;
 	double	mY2;
-
-
 };
 #endif

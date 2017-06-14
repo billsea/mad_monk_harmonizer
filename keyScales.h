@@ -6,13 +6,13 @@
  *  Copyright 2011 _LoudSoftware_. All rights reserved.
  *
  */
-#include <iostream>
-#include <string>
-#include "scaleType.h"
-
 
 #ifndef _keyScales_H_
 #define _keyScales_H_
+
+#include <iostream>
+#include <string>
+#include "scaleType.h"
 
 using namespace std;
 
@@ -27,6 +27,4 @@ public:
 private:
 	
 };
-
-
 #endif

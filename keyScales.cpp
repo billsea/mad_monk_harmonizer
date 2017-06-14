@@ -19,16 +19,10 @@ int CIntervals[MaxNotes] = {0,2,3,4,5,6,7,8};//interval in chord (i.e root(0), t
 int minIntervals[MaxNotes] = {0,2,1,2,2,1,2,2};
 
 
-keyScales::keyScales()
-{
-
-	
-}
-
+keyScales::keyScales(){}
 
 void keyScales::getMajorScale(string keyNote,string mode, scaleType scale[])
 {
-	
 	string semitoneOrder[Semitones];
 	int scaleIndex = 0;
 	
@@ -36,14 +30,11 @@ void keyScales::getMajorScale(string keyNote,string mode, scaleType scale[])
 	{
 		if(semiToneNames[ri] == keyNote)
 		{
-			//printf("keyNote: %s\n",semiToneNames[ri].c_str());
-			//printf("ri-----: %d\n",ri);
-			
 			for(int i=ri;i<Semitones;i++)//build new order of semitones starting with key note
 			{
 				semitoneOrder[scaleIndex] = semiToneNames[i];
 				scaleIndex++;
-				//printf("scaleIndex-----: %s\n",semiToneNames[i].c_str());
+
 			}
 			
 			if(scaleIndex < Semitones)//wraps back to beginning of semitones array
@@ -53,15 +44,12 @@ void keyScales::getMajorScale(string keyNote,string mode, scaleType scale[])
 				{
 					semitoneOrder[scaleIndex] = semiToneNames[i];
 					scaleIndex++;
-					
 					//printf("scaleIndex2-----: %s\n",semiToneNames[i].c_str());
 				}
 			}
 			
 			break;
 		}
-		
-		
 	}
 	
 	//determine major scale
@@ -76,7 +64,6 @@ void keyScales::getMajorScale(string keyNote,string mode, scaleType scale[])
 		scale[z].scaleInterval = CIntervals[z];
 		//printf("theScale-----: %s\n",scale[z].c_str());
 	}
-
 }
 
 void keyScales::getMinorScale(string keyNote,string mode, scaleType scale[], string minorType)
@@ -89,14 +76,10 @@ void keyScales::getMinorScale(string keyNote,string mode, scaleType scale[], str
 	{
 		if(semiToneNames[ri] == keyNote)
 		{
-			//printf("keyNote: %s\n",semiToneNames[ri].c_str());
-			//printf("ri-----: %d\n",ri);
-			
 			for(int i=ri;i<Semitones;i++)//build new order of semitones starting with key note
 			{
 				semitoneOrder[scaleIndex] = semiToneNames[i];
 				scaleIndex++;
-				//printf("scaleIndex-----: %s\n",semiToneNames[i].c_str());
 			}
 			
 			if(scaleIndex < Semitones)//wraps back to beginning of semitones array
@@ -106,8 +89,6 @@ void keyScales::getMinorScale(string keyNote,string mode, scaleType scale[], str
 				{
 					semitoneOrder[scaleIndex] = semiToneNames[i];
 					scaleIndex++;
-					
-					//printf("scaleIndex2-----: %s\n",semiToneNames[i].c_str());
 				}
 			}
 			
@@ -123,8 +104,6 @@ void keyScales::getMinorScale(string keyNote,string mode, scaleType scale[], str
 	
 	for(int z=0;z<MaxNotes-1;z++)
 	{
-		//printf("minorType-----: %s\n",minorType.c_str());
-		
 		interval += minIntervals[z];
 		
 		if(minorType == "Harmonic" && z==6)
@@ -146,9 +125,5 @@ void keyScales::getMinorScale(string keyNote,string mode, scaleType scale[], str
 			scale[z].semitoneInterval = interval;
 			scale[z].scaleInterval = CIntervals[z];
 		}
-
-		//printf(",%s",scale[z].scaleNotes.c_str());
 	}
-	
-	
 }

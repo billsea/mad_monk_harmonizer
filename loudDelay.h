@@ -13,12 +13,8 @@
 #include "math.h"
 #include <AudioToolbox/AudioUnitUtilities.h>
 
-
-
-
 class loudDelay
 {
-	
 public:
 	loudDelay();
 	void setDelayTime(Float32 delTime); 
@@ -26,9 +22,7 @@ public:
 	void processInput(Float32 &srcInL, Float32 &srcInR);
 	void setSampleRate( int sampleRate );
 	void setWriteIndex( int wIndex );
-	int getWriteIndex();
-	
-	//properties
+
 private:
 	int	pNormalizeIndex(int i);
 	TAUBuffer<Float32> delayBuffer_L;
@@ -38,8 +32,7 @@ private:
 	int	pmWriteIndex;
 	int	pmMaxDelayFrames;
 	int sampRate;
-	
+    int getWriteIndex();
 };
-
 
 #endif

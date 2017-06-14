@@ -63,7 +63,6 @@ void smbPitchShift4(float pitchShift, long numSampsToProcess, long fftFrameSize,
  Author: (c)1999-2009 Stephan M. Bernsee <smb [AT] dspdimension [DOT] com>
  */
 {
-	
 	static float gInFIFO[MAX_FRAME_LENGTH];
 	static float gOutFIFO[MAX_FRAME_LENGTH];
 	static float gFFTworksp[2*MAX_FRAME_LENGTH];

@@ -1,6 +1,4 @@
 /*
-
- TESTING
  *	File:		MadMonk.cpp
  *
  *	Version:	1.0
@@ -8,62 +6,6 @@
  *	Created:	11/17/10
  *
  *	Copyright:  Copyright © 2010 _LoudSoftware_, All Rights Reserved
- *
- *	Disclaimer:	IMPORTANT:  This Apple software is supplied to you by
- Apple Computer, Inc. ("Apple") in
- *				consideration of your agreement to the following
- terms, and your use, installation, modification
- *				or redistribution of this Apple software
- constitutes acceptance of these terms.  If you do
- *				not agree with these terms, please do not use,
- install, modify or redistribute this Apple
- *				software.
- *
- *				In consideration of your agreement to abide by the
- following terms, and subject to these terms,
- *				Apple grants you a personal, non-exclusive
- license, under Apple's copyrights in this
- *				original Apple software (the "Apple Software"), to
- use, reproduce, modify and redistribute the
- *				Apple Software, with or without modifications, in
- source and/or binary forms; provided that if you
- *				redistribute the Apple Software in its entirety
- and without modifications, you must retain this
- *				notice and the following text and disclaimers in
- all such redistributions of the Apple Software.
- *				Neither the name, trademarks, service marks or
- logos of Apple Computer, Inc. may be used to
- *				endorse or promote products derived from the Apple
- Software without specific prior written
- *				permission from Apple.  Except as expressly stated
- in this notice, no other rights or
- *				licenses, express or implied, are granted by Apple
- herein, including but not limited to any
- *				patent rights that may be infringed by your
- derivative works or by other works in which the
- *				Apple Software may be incorporated.
- *
- *				The Apple Software is provided by Apple on an "AS
- IS" basis.  APPLE MAKES NO WARRANTIES, EXPRESS OR
- *				IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
- WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY
- *				AND FITNESS FOR A PARTICULAR PURPOSE, REGARDING
- THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE
- *				OR IN COMBINATION WITH YOUR PRODUCTS.
- *
- *				IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL,
- INDIRECT, INCIDENTAL OR CONSEQUENTIAL
- *				DAMAGES (INCLUDING, BUT NOT LIMITED TO,
- PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
- *				OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE,
- *				REPRODUCTION, MODIFICATION AND/OR DISTRIBUTION OF
- THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER
- *				UNDER THEORY OF CONTRACT, TORT (INCLUDING
- NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN
- *				IF APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF
- SUCH DAMAGE.
- *
  */
 
 #include "MadMonk.h"
@@ -72,7 +14,6 @@
 #include <semitoneGet.h>
 #include <math.h>
 #include <LoPassFilter.h>
-
 
 #define MAXFRAMES 4096 //no smearing from 130hz - 1396hz
 
@@ -108,13 +49,8 @@ void smbPitchDetect(long numSampsToProcess, long fftFrameSize, long osamp, float
 
 // new AUPlugIn macro
 AUDIOCOMPONENT_ENTRY(AUBaseFactory, MadMonk)
-
-
-
 static CFStringRef kCutoffFreq_Name = CFSTR("input cutoff frequency");
 static CFStringRef kResonance_Name = CFSTR("input filter resonance");
-
-
 const float kMinCutoffHz = 10.0;
 const float kDefaultCutoff = 350.0;
 const float kMinResonance = -50.0;
@@ -954,16 +890,15 @@ float MadMonk::MagnitudeSquared(float x, float y) {
 //		initial settings here.  For delay/reverb effects, the delay buffers must
 //		also be cleared here.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-void		MadMonk::Reset()
-{
-	mX1 = 0.0;
-	mX2 = 0.0;
-	mY1 = 0.0;
-	mY2 = 0.0;
-	
-		// forces filter coefficient calculation
-	mLastCutoff = -1.0;
-	mLastResonance = -1.0;
+void MadMonk::Reset() {
+  mX1 = 0.0;
+  mX2 = 0.0;
+  mY1 = 0.0;
+  mY2 = 0.0;
+
+  // forces filter coefficient calculation
+  mLastCutoff = -1.0;
+  mLastResonance = -1.0;
 }
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
